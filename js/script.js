@@ -11,7 +11,7 @@ $( document ).ready(function() {
             selectedClass = $(this).attr("data-rel"); 
             console.log(selectedClass)
             $(".portfolio").fadeTo(100, 0.1);
-            $(".portfolio div").not("."+selectedClass).not(".redsquare").not(".textport").not("#lightbox").not(".modal-dialog").not(".modal-content").not(".modal-body").fadeOut().removeClass('scale-anm');
+            $(".portfolio div").not("."+selectedClass).not(".redsquare").not(".textport").not("#lightbox").not(".modal-dialog").not(".modal-content").not(".modal-body").not(".carousel-inner").not("#myCarousel").not(".carousel-indicator").not(".item").fadeOut().removeClass('scale-anm');
 
             setTimeout(function() {
                 $("."+selectedClass).fadeIn().addClass('scale-anm');
@@ -41,9 +41,7 @@ $(document).ready(function() {
     });
     
     $lightbox.on('shown.bs.modal', function (e) {
-        var $img = $lightbox.find('img');
-            
-        $lightbox.find('.modal-dialog').css({'width': $img.width()});
+
         $lightbox.find('.close').removeClass('hidden');
     });
 });
