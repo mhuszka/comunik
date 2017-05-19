@@ -17,7 +17,7 @@ body{
 h3{
     margin-bottom: 10vh;
     font-weight: 900;
-    font-size: 3vh;
+    font-size: 4vh;
     color: var(--black);
 }
 
@@ -30,6 +30,7 @@ h3{
     background-color: var(--black);
     color: white;
 }
+
 .bgN > h3 h4{
     color: white;
     font-size: 2vh;
@@ -39,25 +40,22 @@ h3{
     margin-bottom: 3vh;
 }
 
+
+/*.container-fluid {
+padding: 0;
+margin: 0;
+}*/
+
 /***************** CSS MELYSA *************************/
 
 
 #map {
-    width: 100%; height: 400px; margin-top: 40px; margin-bottom: 40px;
+    width: 100%;
+    height: 400px;
+    margin:0;
+    padding:0;
 }
 
-.info-window {
-    font-family: 'Raleway', sans-serif;
-}
-.info-content {
-    color: #999;
-}
-
-#map {
-    height: 300px;
-    margin: 0;
-    padding: 0;
-}
 
 .rapid {
     font-size: 2vh;
@@ -73,26 +71,109 @@ h3{
 .glyphicon {
     font-size: 3.5vh;
     color: white;
-    background-color: black;
     border-radius: 100%;
     padding: 1.5vh;
-}
-
-.bg-black {
-    background-color: black;
-}
-
-h3 {
-    color: white;
 }
 
 h4 {
     color: white;
     font-size: 3vh;
-  
+    margin-top: 6vh;
+}
+
+h5 {
+    color: white;
+    font-size: 2vh;
+    margin-top: 5vh;
+    padding-left: 1vh;  
+}
+
+.formulaire {
+    margin-top: 10vh;
 }
 
 .adress {
     color: white;
     font-size: 1.5vh;
+    padding-left: 1vh;
+    font-weight: 100;
+}
+
+.adress-1 {
+    border-left: solid 2px white;
+}
+
+.infos {
+    
+}
+
+.selectpicker {
+    border: dotted 1px var(--black);
+    margin-top: 5vh;
+    font-size: 1.8vh;
+    color: var(--black);
+}
+
+.selectpicker-1 {
+    border: dotted 1px var(--black);
+    margin:0;
+    padding:0;
+    font-size: 1.5vh;
+    color: var(--black);
+    width: 50vh;
+    height: 3vh;
+}
+
+.selectpicker-2 {
+    border: dotted 1px var(--black);
+    margin:0;
+    padding:0;
+    font-size: 1.5vh;
+    color: var(--black);
+    width: 50vh;
+    height: 20vh;
+}
+
+.name {
+    margin-top: 2vh;
+    font-size: 1.8vh;
+    font-family: Raleway;
+    font-weight: 900;
+}
+
+.submit {
+    background-color: var(--black);
+    border: solid 1px var(--black);
+    border-radius: 0%;
+    color: var(--grey);
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+.submit:hover {
+    color: white;
+}
+
+.bgN2 {
+    background-color: var(--black);
+    padding-bottom: 20vh;
+}
+
+.footer {
+    background-color: #222222;
+}
+
+.fa-facebook {
+    color: #222222;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 1.2vh 1.5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.text-footer {
+    color: white;
+    font-size: 1vh;
+    font-weight: 100;
 }

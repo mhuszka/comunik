@@ -145,26 +145,19 @@
             <div class="container text-center">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
                 <p class="text-footer">MENTIONS LEGALES</p> 
-            </div>
+            </div><    
         </footer>
 
         <script>
-            function myMap() {
-                var mapCanvas = document.getElementById("map");
-                var myCenter = new google.maps.LatLng(47.6, 6.1);
-                var markerImage = ('google-maps/marker.png');
-                var marker = new google.maps.Marker({
-                    position: myCenter,
-                });
-                marker.setMap(map);
-                var mapOptions = {
-                    center: new google.maps.LatLng(47.6, 6.1), zoom: 10,
-                    scrollwheel: false,  
-                    mapTypeId:google.maps.MapTypeId.ROADMAP
-                };
 
-                var map = new google.maps.Map(mapCanvas, mapOptions);
-            }
+            function myMap() {
+              var myCenter = new google.maps.LatLng(47.6, 6.1);
+              var mapCanvas = document.getElementById("map");
+              var mapOptions = {center: myCenter, zoom:10, scrollwheel: false};
+              var map = new google.maps.Map(mapCanvas, mapOptions);
+              var marker = new google.maps.Marker({position:myCenter});
+              marker.setMap(map);
+           }
         </script>
 
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlfOqgiz5k1Vl7K0fj_-jpfdzj-FbWM7w&callback=myMap"></script>
