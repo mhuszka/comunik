@@ -52,6 +52,13 @@ h3{
     
 }
 
+
+.imgpresta{
+    width: 4vh;
+    padding-bottom: 10px;
+    margin-right: 20px;
+}
+
 a{
     color: black;
     font-size: 20px;   
@@ -69,7 +76,7 @@ a{
 }
 
 li{
-    margin-right: 30px;
+    margin:0;
    
 }
     
@@ -165,6 +172,7 @@ a:hover{
 
 .h3cec{
     margin-top: 100px;
+    color: black;
 }
 
 .information_menu {
@@ -181,7 +189,7 @@ a:hover{
     overflow: hidden!important;
 }
 .information {
-    background: gray;
+    background: white;
     position: relative;
     height: 400px;
 }
@@ -208,21 +216,22 @@ a:hover{
     content: "";
     width: 0;
     height: 0;
-       font-family: /f0c0;
+    
     position: absolute;
     right: -22px;
     z-index: 1000;
     top: 0;
 }
 .information .information_menu li a {
-    color: #FFF;
+    color: black;
     display: block;
     padding: 16px 20px;
     font-size: 15px;
     font-size: 1.5rem;
     text-decoration: none;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
+/*
 .information .btn-emergency {
     background: #f89406;
     border: none;
@@ -235,6 +244,7 @@ a:hover{
     font-size: 20px;
     font-size: 2rem;
 }
+*/
 .information .btn-emergency span {
     padding: 15px;
     display: block;
@@ -278,7 +288,7 @@ a:hover{
     top: 0;
     z-index: 999;
     width: 360px;
-    background: rgba(248, 148, 6, 0.67);
+    background: gray;
     height: 400px;
     padding: 10px 30px;
     display: none;
@@ -305,7 +315,7 @@ a:hover{
     list-style: none;
 }
 .slideshow .overlay-item .quickmenu li a {
-    color: #FFF;
+    color: black;
     display: block;
     padding: 8px 20px;
     font-size: 15px;
