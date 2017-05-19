@@ -50,47 +50,43 @@ h3{
     padding-bottom: 2px;
     padding-left: 0;
     padding-right: 0;
- 
+   
+    
 }
-
+.imgpresta{
+    width: 4vh;
+    padding-bottom: 10px;
+    margin-right: 20px;
+}
 a{
     color: black;
     font-size: 20px;   
 }
-
 .nav{
     margin-top: 70px;
 }
 .menu{
     margin-bottom: 50px;
 }
-
 .car{
     margin-bottom: 50px;
 }
-
 li{
     margin-right: 30px;
    
 }
     
-
 .activeMenu{
     border-bottom: 3px solid red; 
     padding-left: 20px;
     padding-right: 20px;
 }
-
-
 #logo{
     margin-top: 30px;
 }
-
 .full-width {
     width: 100%;
 }
-
-
 .carousel-caption {
     position: absolute;
     top: 0;
@@ -106,23 +102,19 @@ li{
     align-items: center;
     height: 100%;
 }
-
 .pSlid{
     font-size: 3vh;
     font-weight: 200;
     margin-bottom: 300px;
     
 }
-
 .slid{
     font-size: 5vh;
     text-transform: uppercase;
     color: white;
     margin-bottom: 30px;
    
-
 }
-
 .projet{
     text-transform: uppercase;
     color: black;
@@ -132,7 +124,6 @@ li{
     width: 150px;
     border: red 1px solid;
 }
-
 .carousel-indicators li{
     background-color: white;
     border-color:white;
@@ -149,24 +140,18 @@ li{
         -ms-filter: grayscale(2);
     
 }
-
 a:hover{
     text-decoration: none;
     color: var(--black);
     background-color: transparent;
-    cursor: pointer; 
+    
 }
-
 .nav > li > a:hover, .nav > li > a:focus{
     background-color: transparent;
 }
-
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
-
 .h3cec{
     margin-top: 100px;
 }
-
 .information_menu {
     text-transform: uppercase;
     font-size: 15px;
@@ -181,14 +166,14 @@ a:hover{
     overflow: hidden!important;
 }
 .information {
-    background: #2a3d46;
+    background: gray;
     position: relative;
     height: 400px;
 }
 .information h3 {
     font-size: 34px;
     font-size: 3.4rem;
-    font-family: Raleway;
+    
     font-weight: 500;
     color: #FFF;
     padding: 0 15px;
@@ -267,9 +252,15 @@ a:hover{
     text-decoration: none;
 }
 .information_menu_mobile li:hover a {
-    background: #0383c5;
+    background-color: #0383c5;
     text-decoration: none;
 }
+
+.facecile {
+    color: black;
+    padding-right: 1vh;
+}
+
 .slideshow {
     overflow: hidden;
 }
@@ -470,7 +461,7 @@ h5 {
 }
 
 .infos {
-    
+
 }
 
 .selectpicker {
