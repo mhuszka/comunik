@@ -50,21 +50,12 @@ margin: 0;
 
 
 #map {
-    width: 100%; height: 400px; margin-top: 40px; margin-bottom: 40px;
+    width: 100%;
+    height: 400px;
+    margin:0;
+    padding:0;
 }
 
-.info-window {
-    font-family: Raleway;
-}
-.info-content {
-    color: #999;
-}
-
-#map {
-    height: 300px;
-    margin: 0;
-    padding: 0;
-}
 
 .rapid {
     font-size: 2vh;
@@ -97,6 +88,10 @@ h5 {
     padding-left: 1vh;  
 }
 
+.formulaire {
+    margin-top: 10vh;
+}
+
 .adress {
     color: white;
     font-size: 1.5vh;
@@ -106,6 +101,10 @@ h5 {
 
 .adress-1 {
     border-left: solid 2px white;
+}
+
+.infos {
+    
 }
 
 .selectpicker {
@@ -168,7 +167,7 @@ h5 {
     background-color: white;
     border: 1px solid white;
     border-radius: 100%;
-    padding: 1.5vh;
+    padding: 1.2vh 1.5vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
