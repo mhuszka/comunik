@@ -161,7 +161,7 @@ a:hover{
 
 
 
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+
 
 .h3cec{
     margin-top: 100px;
@@ -181,14 +181,14 @@ a:hover{
     overflow: hidden!important;
 }
 .information {
-    background: #2a3d46;
+    background: gray;
     position: relative;
     height: 400px;
 }
 .information h3 {
     font-size: 34px;
     font-size: 3.4rem;
-    font-family: "roboto", sans-serif;
+    
     font-weight: 500;
     color: #FFF;
     padding: 0 15px;
@@ -208,7 +208,7 @@ a:hover{
     content: "";
     width: 0;
     height: 0;
-    
+       font-family: /f0c0;
     position: absolute;
     right: -22px;
     z-index: 1000;
@@ -264,11 +264,11 @@ a:hover{
     display: block;
     padding: 10px;
     color: #FFF;
-    text-decaration: none;
+    text-decoration: none;
 }
 .information_menu_mobile li:hover a {
     background: #0383c5;
-    text-decaration: none;
+    text-decoration: none;
 }
 .slideshow {
     overflow: hidden;
